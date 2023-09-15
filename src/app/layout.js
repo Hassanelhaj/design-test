@@ -1,12 +1,13 @@
 // "use client"
 
+import SideBar from '../../Components/sideBar.jsx/SideBar'
+
+import NavBar from '../../Components/utils/NavBar'
+
 import './globals.css'
 
-import NavBar from '../../Components/Utils/NavBar'
-import SiteFooter from '../../Components/footer/SiteFooter'
-
 export const metadata = {
-  title: 'تنسيق : ننجو معا',
+  title:'',
   description:'developed by hassan ',
 }
 
@@ -22,14 +23,17 @@ export default function RootLayout({ children }) {
 </head>
 
 
-      <body>
-    <NavBar/>
-      <main>
+      <body >
+      
+        <main className=' flex '>
+        <section className='h-screen'>
+          <SideBar/>
+        </section>
+      <section className='flex flex-col  w-full  '> 
+     <NavBar/>
       {children}
+      </section>
       </main>
-      <div>
-        <SiteFooter/>
-      </div>
       </body>
     </html>
   )

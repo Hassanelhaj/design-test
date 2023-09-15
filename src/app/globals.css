@@ -24,14 +24,7 @@ body{
   @apply hover:opacity-60;
 }
 
-
-
-
-
-
-
-
- /* bg-gradient-to-r from-rose-100 to-teal-100 */
-  /* bg-gradient-to-r from-violet-200 to-pink-200 */
-  /* bg-gradient-to-r from-gray-100 to-gray-300 */
-   /* bg-gradient-to-r from-green-100 via-blue-100 to-sky-200 */            
+  .icon{
+    @apply  w-[24px] h-[24px];
+    
+  }

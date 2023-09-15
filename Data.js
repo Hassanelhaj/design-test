@@ -1,20 +1,17 @@
+import {BiHome} from 'react-icons/bi';
+import {HiUsers} from 'react-icons/hi';
+import {ImTruck} from 'react-icons/im';
+import {AiFillGift} from 'react-icons/ai';
+import { FiBox } from 'react-icons/fi';
 
-import {GiEarthAmerica } from 'react-icons/gi'
-import {AiOutlineAppstoreAdd  } from 'react-icons/ai'
+export const sideBarMenu =[
+    {id:1,name:'الرئيسية' ,title:'home',icon:<BiHome/>,link:'/'  },
+    {id:1,name:'المنتجات' ,title:'products',icon:<FiBox/>,link:'/products'  },
 
-export const servicesList = [
-    {id :1,title:'Web Development',
-    description:'Amazing WebSites with Modern UiUX Design Using react js'
-    ,logo:<GiEarthAmerica/>},
-    {id :2,title:'UiUx Design ',
-    description:'Profishial And Modern UiUx Design Using Figma with Your Own Custmization'
-    ,logo:<AiOutlineAppstoreAdd />}
+    {id:3,name:'العروض' ,title:'home',icon:<AiFillGift/> ,link:'/deal' },
+    {id:4,name:'العملاء' ,title:'home',icon:<HiUsers/> ,link:'/custmor'},
+    {id:5,name:'الترحيل' ,title:'home',icon:<ImTruck/> ,link:'/transport'},
+    {id:6,name:'المساعدة' ,title:'home',icon:<BiHome/> ,link:'/help'},
 
- 
-
-    //  
-            //  AiOutlineAppstoreAdd 
-          
-  
 
 ];
